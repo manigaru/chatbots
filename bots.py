@@ -20,6 +20,5 @@ def run_bot(serve_forever=True):
 
     return agent
 
-
 if __name__ == '__main__':
     run_bot()

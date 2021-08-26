@@ -4,7 +4,6 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import logging
-import os
 
 from rasa_core.agent import Agent
 from rasa_core.channels.console import ConsoleInputChannel

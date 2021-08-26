@@ -1,6 +1,7 @@
 # Smalltalk for Rasa Stack
 
-Smalltalk for Rasa Stack has casual conversation data which can be used with Rasa Core and Rasa NLU as an add on to an existing training data.
+Smalltalk for Rasa Stack has casual conversation data which can be used with Rasa Core and Rasa NLU as an add on to an existing training data. ChatBot. 
+
 # Prerequisites
 
 - rasa_core (0.9.0a3)

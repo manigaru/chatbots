@@ -28,3 +28,6 @@ spacy==2.0.11
 mattermostwrapper==2.1
 twilio==6.11.0
 colorhash==1.0.2
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability

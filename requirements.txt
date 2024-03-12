@@ -4,12 +4,12 @@ future==0.16.0
 graphviz==0.7.1
 h5py==2.7.0
 jsonpickle==0.9.4
-keras==2.0.8
-numpy==1.14.0
+keras==2.6.0rc3
+numpy==1.22.2
 pandoc==1.0.0b2
 redis==2.10.5
 six==1.11.0
-tensorflow==1.4.1
+tensorflow==2.11.1
 typing==3.6.2
 networkx==1.11
 fbmessenger==5.0.0
@@ -21,10 +21,17 @@ ruamel.yaml==0.15.34
 flask==0.12
 scikit-learn==0.19.1
 slackclient==1.1.0
-requests==2.18.4
+requests==2.31.0
 rasa_nlu==0.12.3
 rasa_core==0.9.0a3
 spacy==2.0.11
 mattermostwrapper==2.1
 twilio==6.11.0
 colorhash==1.0.2
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
